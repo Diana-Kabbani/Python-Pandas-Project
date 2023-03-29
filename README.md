@@ -1,4 +1,4 @@
-## Objective = We want to predict absenteeism from work. To do so, we first need to clean the dataset
+## Objective : We want to predict absenteeism from work. To do so, we first need to clean the dataset
 ## Dataset 
 When we look at our dataset, we see a variable that is named "Absenteeism Time in hours", which tells us how many hours an employee was absent for each specific date. This is our dependent variable. 
 How can we predict this value for future observations? The other columns could be independent variables. In our regression equation, we could include some of these columns to help us understand and predict if an individual with certain characteristics is more likely to be absent from work for a certain duration, or not. 
