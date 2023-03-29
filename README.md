@@ -8,10 +8,10 @@ Here are the different tasks that are needed to be executed on the data set “A
       1. IMPORTANT: We are sure that an individual has been absent from work for one and one reason only.
       2. The values 1, 2 etc. in this column are the 28 reasons for absence, that have been substituted to numbers (list of the reason available). But how should we treat this information? The values represent categories that are equally meaningful. We could have had names to describe them (disease, dentist etc.) but using numbers is the default way to work with categorical nominal variable (using a legend), and it also uses less data storage.
       3. To perform quantitative analysis, we need to add numeric meaning to our categorical nominal values by putting them in a dummy variable: an explanatory binary variable that equals 1 if a certain categorical effect is present, or 0 if the same effect is absent. We can thus group them (Classification) in the following way:
-        1. Group 1: Columns 1 to 14: Diseases
-        2. Group 2: Columns 15, 16, and 17: Pregnancy and giving birth.
-        3. Group 3: Columns 18, 19, 20, and 21: Poisoning 
-        4. Group 4: Columns 22 to 28: “Light” reasons, consultations etc.
+            1. Group 1: Columns 1 to 14: Diseases
+            2. Group 2: Columns 15, 16, and 17: Pregnancy and giving birth.
+            3. Group 3: Columns 18, 19, 20, and 21: Poisoning 
+            4. Group 4: Columns 22 to 28: “Light” reasons, consultations etc.
 3.	<ins>Extract the month value and the day of the week from the ‘Date’ column. Then, drop the ‘Date’ column as well</ins>: 
       1.  First, you’ll need to change the data type of the date column, that is now stored as a string, to a timestamp (data type used for values representing dates and time)
 4.	The columns Transportation expense (monthly, in $), Distance to Work, Age Daly Workload Average (minutes worked per day) and Body Mass Index are numerical and clean.
